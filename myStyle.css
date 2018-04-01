@@ -5,10 +5,15 @@ background-color:#D2E3Ef
 {
 font-family:"Palatino Linotype";
 font-size:30px;
+  
+pre, code {
+  font-family: monospace, monospace;
 }
-pre code {
-  background-color: #eee;
-  border: 1px solid #999;
+pre {
+  overflow: auto;
+}
+pre > code {
   display: block;
-  padding: 20px;
+  padding: 1rem;
+  word-wrap: normal;
 }
