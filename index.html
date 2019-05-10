@@ -8,33 +8,64 @@
         type="text/css" 
         href="myStyle.css" />
 </head>
-  
+	
 <body>
-  Some stuff will go here...
-  
-  Perhaps a code block...
-  <?prettify linenums=30?>
-  <pre class="prettyprint">
-    <code class="lang-py">
-      def fibonacci1(n):
-	  if n == 1 or n == 2:
-	     return 1
-	  return fibonacci(n-1) + fibonacci(n-2)
-    </code>
-  </pre>
-  
-  <?prettify linenums=30?>
-  <pre class="prettyprint">
-    <code class="lang-py">
-    	def fibonacci2(n):
-	    a, b = 1, 1
-	    for i in range(n-1):
-		a, b = b, a+b
-	    return a
-    </code>
-  </pre?
-</body
-  
+<nav class="navbar-custom">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Brand</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNav">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#About">About</a href="#"></li>
+				<li><a href="#Gallery">Projects</a></li>
+				<li><a href="#Contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+	
+<div class="jumbotron">
+	<div class="container text-center" id="#About">
+		<h1>Words</h1>
+	</div>
+</div>
+	<div class="container-fluid bg-3 text-center" style="background-color:#F7F0F5" id="Gallery">
+	<h3 style="font-family: Georgia, serif">Some stuff....</h3><br>
+	<div class="row">
+		<div class="col-sm-3">
+			<p>More stuff..</p>
+			<img src="https://placehold.it/300x160?text=¯\_(ツ)_/¯" class="image-responsive" style="width 100%" alt="Image">
+		</div>
+		<div class="col-sm-3">
+			<p>More stuff..</p>
+			<img src="https://placehold.it/300x160?text=¯\_(ツ)_/¯" class="image-responsive" style="width 100%" alt="Image">
+		</div>
+		<div class="col-sm-3">
+			<p>More stuff..</p>
+			<img src="https://placehold.it/300x160?text=¯\_(ツ)_/¯" class="image-responsive" style="width 100%" alt="Image">
+		</div>
+		<div class="col-sm-3">
+			<p>More stuff..</p>
+			<img src="https://placehold.it/300x160?text=¯\_(ツ)_/¯" class="image-responsive" style="width 100%" alt="Image">
+		</div>
+	</div><br><br>
+</div>
+
+<footer class="container-fluid center-text" id="Contact">
+	<blockquote>
+		<p style="color:#e9f1f7; text-align:center; font-family: Georgia, serif"><i>"Dogmatism and skepticism are both, in a sense, absolute philosophies; one is certain of knowing, the other of not knowing.<br> What philosophy should dissipate is certainty, whether of knowledge or of ignorance."</i><br>-Bertrand Russell-</p>
+	</blockquote>
+	<button class="pull-right"><a class="fa fa-github-square" href="https://github.com/" target="-blank" style="font-size:36px"></a></button>
+	<button class="pull-right"><a class="fa fa-linkedin-square" href="https://linkedin.com" target="-blank" style="font-size:36px"></a></button>
+	<button class="pull-right"><a class="fa fa-twitter-square" href="https://twitter.com" target="-blank" style="font-size:36px"></a></button>
+</footer>
+	
+</body>
 </html>
-
-
